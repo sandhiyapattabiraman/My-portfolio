@@ -1,0 +1,259 @@
+*{
+    margin: 0px;    
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+}
+
+body header p{
+    font-size: 25px;
+    font-weight: 500;
+    position: fixed;
+    margin-top: 35px;
+    left: 10px;
+    z-index: 1;
+    font-family: "Fredoka", sans-serif;
+}
+nav{
+    position: fixed;
+    font-family: "Fredoka", sans-serif;
+}
+ nav  a{
+    font-size: 30px;
+    display: inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a{
+    position: relative;
+    left: 900px;
+    padding: 20px;
+    top: 30px;
+    z-index: 1;
+}
+a:hover{
+    color: rgb(239, 135, 55);
+    text-decoration: underline;
+}
+.nav_container{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    border-bottom: solid 2px white;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+    z-index: 1;
+}
+.image_container{
+    position: relative;
+    top: 280px;
+    left: 950px;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+    border-radius: 1000px;
+}
+.sandy{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+
+.Hello{
+    position: relative;
+    font-size: 60px;
+    top: 360px;
+    left: 300px;
+}
+.i{
+    position: absolute;
+    font-size: 70px;
+    top: 450px;
+    left: 450px;
+}
+.sandhiya{
+    position: absolute;
+    font-size: 70px;
+    top: 550px;
+    left: 450px;
+}
+.about_container{
+    position: relative;
+    top: 400px;
+    height: 500px;
+    width: 100%;
+}
+.skills_container{
+    position: relative;
+    top: 500px;
+    height: 600px;
+    width: 100%;
+}
+.contact_container{
+    position: relative;
+    top: 800px;
+    height: 600px;
+    width: 100%;
+}
+.About{
+    font-size: 60px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-family: "Fredoka", sans-serif;
+}
+.box1{
+    top: 400px;
+    height: 250px;
+    width: 800px;
+    border-radius: 50px;
+    position: absolute;
+    left: 400px;
+    background: linear-gradient(to right,rgb(54, 53, 53), rgb(58, 58, 58));
+}
+.box1 p{
+    font-size: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.skills{
+    font-family: "Fredoka", sans-serif;
+    font-size: 70px;
+    position: absolute;
+    top: 300px;
+    left: 300px
+}
+
+.box2{
+    top: 400px;
+    height: 200px;
+    width: 500px;
+    border-radius: 50px;
+    position: absolute;
+    left: 500px;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+}
+.html-icon{
+    height: 265px;
+    position: absolute;
+    top: 425px;
+    left: 300px;
+}
+.css-icon{
+    height: 210px;
+    position: absolute;
+    top: 460px;
+    left: 670px;
+}
+.drawing-icon{
+    height: 280px;
+    position: absolute;
+    top: 420px;
+    left: 1000px;
+}
+
+.Contact{
+    font-family: "Fredoka", sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    left: 300px
+}
+.box3{
+    top: 100px;
+    height: 200px;
+    width: 900px;
+    border-radius: 50px;
+    position: absolute;
+    left: 500px;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+}
+.box3 p{
+    position: absolute;
+    top: 50px;
+    left: 15px;
+    font-size: 40px;
+    font-family: "Fredoka", sans-serif;
+}
+.elogo{
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    left: 430px;
+    top: 155px;
+}
+/*
+#About{
+    font-size: 40px;
+    position: relative;
+    margin: 600px;
+    right: 300px;
+}
+.box1{
+    margin-top: 60px;
+    height: 250px;
+    width: 700px;
+    border-radius: 50px;
+    position: absolute;
+    left: 200px;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+}
+.container1 p{
+    font-size: 35px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Skills{
+    font-size: 70px;
+    position: relative;
+    margin: 600px;
+    right: 300px;
+}
+.box2{
+    top: 1800px;
+    height: 200px;
+    width: 500px;
+    border-radius: 50px;
+    position: absolute;
+    left: 500px;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+}
+.container2 li{
+    font-size: 50px;
+}
+#Contact{
+    font-size: 40px;
+    position: relative;
+    margin: 600px;
+    right: 300px;
+    top: 100px;
+}
+.box3{
+    top: 100px;
+    height: 200px;
+    width: 900px;
+    border-radius: 50px;
+    position: absolute;
+    left: 200px;
+    background: linear-gradient(to right,black, rgb(33, 33, 33), rgb(75, 74, 74));
+}
+.container3 p{
+    font-size: 30px;
+    justify-content: center;
+}*/
