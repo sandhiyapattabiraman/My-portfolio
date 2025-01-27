@@ -30,7 +30,7 @@ nav a{
     font-size: 30px;
     display: inline;
     position: relative;
-    left: 900px;
+    left: 800px;
     padding: 20px;
     top: 30px;
     z-index: 1;
@@ -98,6 +98,7 @@ a:hover{
     top: 800px;
     height: 600px;
     width: 100%;
+    margin-top: 120px;
 }
 .About{
     font-size: 60px;
@@ -126,49 +127,87 @@ a:hover{
     font-family: "Fredoka", sans-serif;
 }
 
-.skills{
-    font-family: "Fredoka", sans-serif;
-    font-size: 70px;
-    position: absolute;
-    top: 250px;
-    left: 300px
+#Skill{
+    margin-top: 120px;
+   height: 200px;
 }
-.html{
-    font-size: 30px;
-    position: absolute;
-    top: 400px;
-    left: 390px;
-}
-.html-icon{
-    height: 265px;
-    position: absolute;
-    top: 425px;
-    left: 300px;
-}
-.css{
-    font-size: 30px;
-    position: absolute;
-    top: 400px;
-    left: 750px;
-}
-.css-icon{
-    height: 210px;
-    position: absolute;
-    top: 460px;
-    left: 670px;
-}
-.drawing{
-    font-size: 30px;
-    position: absolute;
-    top: 400px;
-    left: 1050px;
-}
-.drawing-icon{
-    height: 280px;
-    position: absolute;
-    top: 420px;
-    left: 1000px;
-}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .skillsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  #SKILLS {
+    margin-top: 0%;
+    color: white;  
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+  
+  .skill {
+      width: 45%;
+      margin-bottom: .1rem;
+  }
+  
+  .skill span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px; 
+  }
+  
+  .progress {
+    background-color: #545454;
+    border-radius: 5px;
+    height: 10px;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #f1c40f;
+    border-radius: 5px;
+  }
+  
+  /* English Skills */
+  
+  .english-skills-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .english-skills-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+  }
+  
+  .english-skills-title{
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .skill_title{
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+  .stars{
+    color: #d7ae0a;
+    font-size: 1.6rem;
+  }
 
 .Contact{
     font-family: "Fredoka", sans-serif;
